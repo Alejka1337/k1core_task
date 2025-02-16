@@ -1,0 +1,32 @@
+[
+    {
+        "model": "app.Currency",
+        "pk": 1,
+        "fields": {
+            "name": "BTC"
+        }
+    },
+    {
+        "model": "app.Currency",
+        "pk": 2,
+        "fields": {
+            "name": "ETH"
+        }
+    },
+    {
+        "model": "app.Provider",
+        "pk": 1,
+        "fields": {
+            "name": "Blockchair",
+            "api_key": ""
+        }
+    },
+    {
+        "model": "app.Provider",
+        "pk": 2,
+        "fields": {
+            "name": "CoinMarketCap",
+            "api_key": "b54bcf4d-1bca-4e8e-9a24-22ff2c3d462c"
+        }
+    }
+]
